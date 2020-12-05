@@ -1042,5 +1042,4 @@ const validPassports = passports.filter((passport) => {
   return requiredKeys.length === mustHaveKeys.length && allfieldsValid;
 });
 
-// 112 not correct
 console.log(validPassports.length);
